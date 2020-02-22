@@ -19,9 +19,9 @@
 
 
 ## Next steps
-Create Hello Wolrd Latex doc
-Add simple equations to doc
-Create equation cheat sheet
+Create Hello Wolrd Latex doc\
+Add simple equations to doc\
+Create equation cheat sheet\
 
 
 ## Questions / Barriers
@@ -62,7 +62,7 @@ $ cd /lang/linux_mix/linux_bike             # cd into repo - same dir as the REA
                                             # or context.md file
 $ spe                                       # venv for python scrips
                                             # alias spe='. /repos/python_scripts/venv/bin/activate'   
-$ create_TOC_for_md.py                      # run script
+$ [create_TOC_for_md.py](https://github.com/UnacceptableBehaviour/python_scripts/blob/master/create_TOC_for_md.py)                      # run script
                                             # paste output into .md file TOC
 ```
 
