@@ -1,39 +1,63 @@
 # Context
 ## Status: Latex project created
-[AMBER]
+[GREEN]
 
 ## Contents
 1. [Status: Latex project created](#status-latex-project-created)
 2. [Contents](#contents)
 3. [Next steps](#next-steps)
 4. [Questions / Barriers](#questions--barriers)
-	1. [None at the mo.](#none-at-the-mo)
+	1. [None](#none)
 5. [Completed](#completed)
 6. [How To's](#how-tos)
-	1. [How do I insert a TOC?](#how-do-i-insert-a-toc)
-	2. [How do I auto generate TOC?](#how-do-i-auto-generate-toc)
+	1. [Where can I download the Latex software?](#where-can-i-download-the-latex-software)
+	2. [Where can I find a Latex Reference? (copy/pastable)](#where-can-i-find-a-latex-reference-copypastable)
+	3. [How do I view the document?](#how-do-i-view-the-document)
+	4. [How do I insert a TOC (for this context doc on Git - Not Latex)?](#how-do-i-insert-a-toc-for-this-context-doc-on-git--not-latex)
+	5. [How do I auto generate TOC for this document (context.md for git)?](#how-do-i-auto-generate-toc-for-this-document-contextmd-for-git)
 7. [TIPS](#tips)
 8. [REFERENCES](#references)
-	1. [Markdown cheat sheet](#markdown-cheat-sheet)
-	2. [GFM - Git Flavoured Markdown](#gfm--git-flavoured-markdown)
+	1. [Add simple equations to doc](#add-simple-equations-to-doc)
+	2. [Limits, Summation & Integrals](#limits-summation--integrals)
+	3. [Converting .tex for use on web page](#converting-tex-for-use-on-web-page)
+	4. [Markdown cheat sheet - GIT](#markdown-cheat-sheet--git)
+	5. [GFM - Git Flavoured Markdown](#gfm--git-flavoured-markdown)
 
 
 ## Next steps
-Create Hello Wolrd Latex doc \
-Add simple equations to doc \
-Create equation cheat sheet \
-
+How to embed into a web page - quiz question for example?
 
 ## Questions / Barriers
-### None at the mo.
+### None
 
 
 ## Completed
-2020.Feb.22 - TLA - Create Context Template
+2020.Feb.22 - SF - Create Context Template
+ - Create Hello Wolrd Latex doc
+ - Create equation cheat sheet, added equations w/ the following notations.
+Greek symbols, super script, subscript, fraction, n root x, powers, combined super & sub script, matrix w/ fraction,
+differentials, product summatiom, integration.
 
 
 ## How To's
-### How do I insert a TOC?
+### Where can I download the Latex software?
+All platforms available from the Latex Project
+[https://www.latex-project.org/get/](https://www.latex-project.org/get/)
+
+### Where can I find a Latex Reference? (copy/pastable)
+[https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+
+### How do I view the document?
+Hit the Typeset button TLHC. The Markup is then compiled and (if successful) diaplyed as a PDF.
+If not successful the line ref of the error is on the LHS of the editor.
+
+### How to save PDF version of doc?
+PDF file is automatically generated when Typset is clicked. It's placed in the same folder as the .tex file.
+
+
+
+
+### How do I insert a TOC (for this context doc on Git - Not Latex)?
 To create a link to a chapter in MD:
 ```
 [Text to Display](#text-from-title)\
@@ -56,7 +80,7 @@ To create a TOC, create a numbered list of links. Tab in next level with new num
 7. [References](#references)
 ```
 
-### How do I auto generate TOC?
+### How do I auto generate TOC for this document (context.md for git)?
 ```
 $ cd /lang/linux_mix/linux_bike             # cd into repo - same dir as the README.md file
                                             # or context.md file
@@ -66,9 +90,6 @@ $ [create_TOC_for_md.py]                      # run script
                                             # paste output into .md file TOC
 ```
 Available here: [create_TOC_for_md.py](https://github.com/UnacceptableBehaviour/python_scripts/blob/master/create_TOC_for_md.py)  
-
-
-
 
 
 ## TIPS
@@ -83,7 +104,16 @@ BLUE  - Parked, no action planned. (maybe incomplete / redundant)
 
 
 ## REFERENCES
-### Markdown cheat sheet
+### Add simple equations to doc
+https://www.youtube.com/watch?v=1pCdiDin02s
+
+### Limits, Summation & Integrals
+https://www.youtube.com/watch?v=c5X7Xj1iYak
+
+### Converting .tex for use on web page
+https://tex.stackexchange.com/questions/23804/how-to-incorporate-tex-into-a-website
+
+### Markdown cheat sheet - GIT
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ### GFM - Git Flavoured Markdown

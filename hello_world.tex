@@ -1,23 +1,106 @@
-\documentclass{article}
-\usepackage{amsmath}
+\documentclass{article}		% comment
+\usepackage{amsmath}		% include maths notation
+\usepackage{hyperref}		% include url / link support
+\usepackage{fullpage}		% format to full page
 \title{Maths symbols in Latex}
 
 
 \begin{document}
-\title{Maths symbols in Latex}
+\begin{Huge}
+Maths symbols in Latex\\
+\end{Huge}
 
 
-$bullet$
+\begin{large}
+This text is \textbf{large}, the title is \textit{Huge}\\
+
+The above words use \textbackslash textbf for \textbf{BOLD}
+
+and \textbackslash textit for \textit{italic}\\
+
+The space between the lines is created by \textbackslash \textbackslash  at the end of the line.\\
+
+More markup here: 
+\href{https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf}{LaTeX CHEAT SHEET} \textless Link \\
+To add links include package at the top of markup with \textbackslash usepackage\{hyperref\} \\
+
+  
+  MATHS SYMBOLS
+\end{large}
+
+  \begin{align}
+   \nonumber			% remove number of following equation
+  b^2\\				% \\ is new line
+   \nonumber			% remove number of following equation  
+  \sqrt[3]{4ac}\\
+   \nonumber
+  -b \pm \sqrt{b^2 - 4ac}
+  \end{align} 
+quadratic  
+  \begin{align}
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} 
+  \end{align} 
+  
+  where
+  \begin{align}
+    ax^2 +bx +c =0
+  \end{align} 
+  
+  Tensor Multilevel Super \& Subscrpting  Eqn.\ref{tensor}
+  \begin{align}  
+	T^{{\alpha\prime}{\beta\prime}\cdots{\zeta\prime}} _{{\theta\prime}{\iota\prime}\cdots{\kappa\prime}}  = \Lambda^{\alpha^\prime}
+	 {_\mu\Lambda}^{\beta^\prime}{_\nu}\cdots\Lambda^{\zeta^\prime}{_\rho}\Lambda_{\theta^\prime}{^\sigma}
+	 \Lambda_{\iota^\prime}{^\upsilon}\cdots\Lambda_{\kappa^\prime}{^\zeta}
+	 T^{{\mu\prime}{\nu\prime}\cdots{\rho}} _{{\sigma\upsilon}\cdots{\zeta}},
+	 \label{tensor}
+  \end{align} 
+
+Matrices Eqn.\ref{matrix}
+  \begin{align}
+	F^{\mu\upsilon} =
+	\begin{bmatrix}
+	0 & \frac{1}{c}E_x & \frac{1}{c}E_y & \frac{1}{c}E_z & \\
+	\frac{1}{c}E_x & 0 & -B_z & B_y  \\	
+	\frac{1}{c}E_y & B_z & 0 & -B_x  \\	
+	\frac{1}{c}E_z & -B_y & B_x & 0  \\		
+	\end{bmatrix}
+	\label{matrix}
+  \end{align} 
 
 
-
+run plot of the following equation w/ lorenz.py Eqn.\ref{python_code}
+  \begin{align}
+	\frac{dx}{dt}=\sigma(y-x), \frac{dy}{dt}=x(\rho-z)-y, \frac{dz}{dt}=xy - \beta z.
+	\label{python_code}
+  \end{align} 
+  
   \begin{align}
     E_0 &= mc^2 \\
     E &= \frac{mc^2}{\sqrt{1-\frac{v^2}{c^2}}}
   \end{align} 
+
+Integration  Eqn.\ref{integ}
+  \begin{equation}
+	\int_{0}^{n}x^2 dx
+	\label{integ}	
+  \end{equation}   
+
+Limits  Eqn.\ref{limits}
+  \begin{equation}
+	\lim_{x\to2}x^2+2
+	\label{limits}
+  \end{equation} 
+
+Summation Eqn.\ref{sum}
+  \begin{equation}
+	\sum_{x=1}^{n}x^2=1
+	\label{sum}	
+  \end{equation}   
   
-  
-  
-  
-  
-  \end{document}
+Product Sequence Eqn.\ref{prod_seq}
+  \begin{equation}
+	\prod_{x=1}^{n}x^2=1
+	\label{prod_seq}	
+  \end{equation}   
+
+\end{document}
