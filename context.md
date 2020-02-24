@@ -96,10 +96,10 @@ Available here: [create_TOC_for_md.py](https://github.com/UnacceptableBehaviour/
 ## TIPS
 Keep status concise:  
 Put the colour in square brackets on the next line immediately after status  
-RED   - Stalled, technology/cost barrier.
-AMBER - Work in progress.
-GREEN - Complete.
-BLUE  - Parked, no action planned. (maybe incomplete / redundant)
+RED   - Stalled, technology/cost barrier.  
+AMBER - Work in progress.  
+GREEN - Complete.  
+BLUE  - Parked, no action planned. (maybe incomplete / redundant)  
 
 <br>/CRLF in markdown is endline \\
 
