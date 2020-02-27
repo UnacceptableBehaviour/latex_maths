@@ -46,9 +46,13 @@ All platforms available from the Latex Project
 [https://www.latex-project.org/get/](https://www.latex-project.org/get/)
 
 ### Where can I find a Latex Reference? (copy/pastable)
+#### Cheat Sheet
 [https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+#### Comprehensive Latex Symbol List
+[http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf](http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
 
 ### How do I view the document?
+Double click on file_name.tex or open TexShop (installed in step 1) to create a new .tex (and pdf)
 Hit the Typeset button TLHC. The Markup is then compiled and (if successful) diaplyed as a PDF.
 If not successful the line ref of the error is on the LHS of the editor.
 
