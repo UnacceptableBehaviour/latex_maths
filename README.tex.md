@@ -46,6 +46,9 @@ $$
   a_n = a_{n-1} + a_{n-2}
 \end{equation}
 \begin{equation}
+  n \geq 2
+\end{equation}
+\begin{equation}
   a_0 = 0
 \end{equation}
 \begin{equation}
@@ -57,6 +60,9 @@ $$
 
 ### References
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+
+
+[Solving Recurrence Relations](https://www.youtube.com/watch?v=7mhvA5L7KqY)  
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
