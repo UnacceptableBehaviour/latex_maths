@@ -95,18 +95,9 @@ Note the ! before opening [ denotes image
 #### Automagically - install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
 Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
-```
-\$\$
-\\begin{equation}
-  D_1.D_2\\
-\\end{equation}
-\\begin{equation}
-  \\sum_{w}D_1[w].D_2[w]
-  \\label{sum}  
-\\end{equation}
-\$\$
-```  
-Will display the followin document distance equation  
+![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.png)  
+
+Will display the following document distance equation  
 $$
 \begin{equation}
   D_1.D_2\\
