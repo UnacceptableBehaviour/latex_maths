@@ -11,7 +11,7 @@ Maths revision & learning
 	1. [References](#references)  
 3. [Another topic](#another-topic)  
 	1. [References](#references)  
-4. [How To\s](#how-tos)  
+4. [How To s](#how-to-s)  
 	1. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	2. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	3. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
@@ -33,17 +33,17 @@ Maths needs to be good enough to support Algorithms
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Recurrence resolution for - Algos L3 34m 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-Recurrence is basically a computable sequence set out from a set of start rules and a base case.
 
-EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum of the two preceding numbers
-0	1	1	2	3	5	8	13	.	. 	you get it
+Recurrence is basically a computable sequence set out from a set of start rules and a base case.  
+  
+EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum of the two preceding numbers  
+0	1	1	2	3	5	8	13	.	. 	you get it  
 
 
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 ### References
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -51,20 +51,19 @@ EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Another topic
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 ### References
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Limits algebra - manipulations and rules.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
-
-## How To\s
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## How To s
 ### How to setup autogenerate README.md file from RTF notes?
 ```
 > python --version			# Python 2.7.16
