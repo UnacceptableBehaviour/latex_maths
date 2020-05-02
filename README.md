@@ -95,13 +95,9 @@ Note the ! before opening [ denotes image
 #### Automagically - install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
 Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
-```
-\$\$
-\<p align="center"><img src="/tex/49a0400087b2a15630108838075a60c3.svg?invert_in_darkmode&sanitize=true" align=middle width=135.72721635pt height=14.611878599999999pt/></p>
-\<p align="center"><img src="/tex/b824f6a6a09a696e2795141e3ea71200.svg?invert_in_darkmode&sanitize=true" align=middle width=286.00749375pt height=16.438356pt/></p>
-\$\$
-```  
-Will display the followin document distance equation  
+![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.png)  
+
+Will display the following document distance equation  
 <p align="center"><img src="/tex/a5a3fa25cf152acc801491db474d6460.svg?invert_in_darkmode&sanitize=true" align=middle width=407.98942304999997pt height=64.10978970000001pt/></p>
 
 
