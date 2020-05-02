@@ -96,6 +96,7 @@ Note the ! before opening [ denotes image
 [Find texify here](https://github.com/agurodriguez/github-texify)  
 Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
 ![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.png)  
+![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.jpeg)  
 
 Will display the following document distance equation  
 <p align="center"><img src="/tex/a5a3fa25cf152acc801491db474d6460.svg?invert_in_darkmode&sanitize=true" align=middle width=407.98942304999997pt height=64.10978970000001pt/></p>
