@@ -85,17 +85,25 @@ Limits algebra - manipulations and rules.
 ### How can I add maths formulas to README.md?
 #### Generate math image and embed it.
 Install Latex tools [notes here](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)  
-Open LaTeXit edit equation click text and hit the LaTeXit button to check its good.
-Export as png and upload it to git (need to do this so the URL and be used to embed the image)
-Embed image with 
+Open LaTeXit edit equation click text and hit the LaTeXit button to check its good.  
+Export as png and upload it to git (need to do this so the URL and be used to embed the image)  
+Embed image with  
 ```
 ![uses dot product of the vector of each document](https://github.com/UnacceptableBehaviour/algorithms/blob/master/formulae/20200228_1715_dot_prod_doc_distance.png)  
 Note the ! before opening [ denotes image
 ```
 #### Solution 2 install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
-Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive <img src="/tex/1cc306e4b3483bf26509c6f574a08d15.svg?invert_in_darkmode&sanitize=true" align=middle width=114.82449329999997pt height=22.831056599999986pt/><img src="/tex/75c81d786f957473c8dffc3d8864f491.svg?invert_in_darkmode&sanitize=true" align=middle width=700.2739854pt height=123.28807259999998pt/>$
+Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
+```
+\$\$
+<p align="center"><img src="/tex/750a329f8e021f0db6322010cdd59966.svg?invert_in_darkmode&sanitize=true" align=middle width=373.40413605pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/92ec0cb31d3b1ca35c8a83a86d519fb8.svg?invert_in_darkmode&sanitize=true" align=middle width=407.98942304999997pt height=36.16460595pt/></p>
+\$\$
 ```  
+Will display the followin document distance equation  
+<p align="center"><img src="/tex/a5a3fa25cf152acc801491db474d6460.svg?invert_in_darkmode&sanitize=true" align=middle width=407.98942304999997pt height=64.10978970000001pt/></p>
+
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
