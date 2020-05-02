@@ -12,11 +12,12 @@ Maths revision & learning
 3. [Another topic](#another-topic)  
 	1. [References](#references)  
 4. [How To s](#how-to-s)  
-	1. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
-	2. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
-	3. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
+	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
+	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
+	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
+	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
-		2. [Automagically - install texify.](#automagically--install-texify)  
+		2. [Automagically: Install texify.](#automagically-install-texify)  
 5. [References](#references)  
 
 
@@ -39,7 +40,18 @@ Recurrence is basically a computable sequence set out from a set of start rules 
 EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum of the two preceding numbers  
 0	1	1	2	3	5	8	13	.	. 	you get it  
 
-
+formally defined:
+$$
+\begin{equation}
+  a_n = a_{n-1} + a_{n-2}
+\end{equation}
+\begin{equation}
+  a_0 = 0
+\end{equation}
+\begin{equation}
+  a_1 = 1
+\end{equation}
+$$
 
 
 
@@ -64,6 +76,11 @@ Limits algebra - manipulations and rules.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## How To s
+### Where are Latex Examples for this repo?
+[Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
+This pdf doc is generated using TeXShop from [hello_world.tex](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.tex)  
+
+
 ### How to setup autogenerate README.md file from RTF notes?
 ```
 > python --version			# Python 2.7.16
@@ -92,11 +109,10 @@ Embed image with
 ![uses dot product of the vector of each document](https://github.com/UnacceptableBehaviour/algorithms/blob/master/formulae/20200228_1715_dot_prod_doc_distance.png)  
 Note the ! before opening [ denotes image
 ```
-#### Automagically - install texify.
+#### Automagically: Install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
 Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
 ![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.png)  
-![latex script](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/latex_example.jpeg)  
 
 Will display the following document distance equation  
 $$
