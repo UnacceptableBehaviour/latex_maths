@@ -114,10 +114,12 @@ BLUE  - Parked, no action planned. (maybe incomplete / redundant)
 
 ## REFERENCES
 ### Cheat Sheet
-[https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)
+[https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Local copy in scratch dir  
 
 ### Comprehensive Latex Symbol List
-[http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf](http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf)
+[http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf](http://mirror.ox.ac.uk/sites/ctan.org/info/symbols/comprehensive/symbols-a4.pdf)  
+Local copy in scratch dir  
 
 ### Add simple equations to doc
 https://www.youtube.com/watch?v=1pCdiDin02s
