@@ -85,17 +85,28 @@ Limits algebra - manipulations and rules.
 ### How can I add maths formulas to README.md?
 #### Generate math image and embed it.
 Install Latex tools [notes here](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)  
-Open LaTeXit edit equation click text and hit the LaTeXit button to check its good.
-Export as png and upload it to git (need to do this so the URL and be used to embed the image)
-Embed image with 
+Open LaTeXit edit equation click text and hit the LaTeXit button to check its good.  
+Export as png and upload it to git (need to do this so the URL and be used to embed the image)  
+Embed image with  
 ```
 ![uses dot product of the vector of each document](https://github.com/UnacceptableBehaviour/algorithms/blob/master/formulae/20200228_1715_dot_prod_doc_distance.png)  
 Note the ! before opening [ denotes image
 ```
 #### Solution 2 install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
-Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive $ symbols like so
+Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
 ```
+\$\$
+\begin{equation}
+  D_1.D_2\\
+\end{equation}
+\begin{equation}
+  \sum_{w}D_1[w].D_2[w]
+  \label{sum}  
+\end{equation}
+\$\$
+```  
+Will display the followin document distance equation  
 $$
 \begin{equation}
   D_1.D_2\\
@@ -105,7 +116,7 @@ $$
   \label{sum}  
 \end{equation}
 $$
-```  
+
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
