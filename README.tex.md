@@ -15,8 +15,8 @@ Maths revision & learning
 	1. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	2. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	3. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
-		1. [Generate math image and embed it.](#generate-math-image-and-embed-it)  
-		2. [Solution 2 install texify.](#solution-2-install-texify)  
+		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
+		2. [Automagically - install texify.](#automagically--install-texify)  
 5. [References](#references)  
 
 
@@ -83,7 +83,7 @@ Limits algebra - manipulations and rules.
 ```
 
 ### How can I add maths formulas to README.md?
-#### Generate math image and embed it.
+#### Manually: Generate math image and embed it.
 Install Latex tools [notes here](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)  
 Open LaTeXit edit equation click text and hit the LaTeXit button to check its good.  
 Export as png and upload it to git (need to do this so the URL and be used to embed the image)  
@@ -92,18 +92,18 @@ Embed image with
 ![uses dot product of the vector of each document](https://github.com/UnacceptableBehaviour/algorithms/blob/master/formulae/20200228_1715_dot_prod_doc_distance.png)  
 Note the ! before opening [ denotes image
 ```
-#### Solution 2 install texify.
+#### Automagically - install texify.
 [Find texify here](https://github.com/agurodriguez/github-texify)  
 Use LaTeXit to check formula correctness then past it into doc surrounded by consecutive \$ symbols like so
 ```
 \$\$
-\begin{equation}
+\\begin{equation}
   D_1.D_2\\
-\end{equation}
-\begin{equation}
-  \sum_{w}D_1[w].D_2[w]
-  \label{sum}  
-\end{equation}
+\\end{equation}
+\\begin{equation}
+  \\sum_{w}D_1[w].D_2[w]
+  \\label{sum}  
+\\end{equation}
 \$\$
 ```  
 Will display the followin document distance equation  
