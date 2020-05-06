@@ -7,18 +7,20 @@ Maths revision & learning
 
 ## Contents  
 1. [AIM:](#aim)  
-2. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
+2. [Asymptotic Notation](#asymptotic-notation)  
 	1. [References](#references)  
-3. [Another topic](#another-topic)  
+3. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
 	1. [References](#references)  
-4. [How To s](#how-to-s)  
+4. [Another topic](#another-topic)  
+	1. [References](#references)  
+5. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-5. [References](#references)  
+6. [References](#references)  
 
 
 ## AIM:  
@@ -30,6 +32,29 @@ Maths needs to be good enough to support Algorithms
 
 
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## Asymptotic Notation
+
+
+6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method
+
+
+6.042 2010 - L12 -  Sums
+
+
+6.042 2010 - L13 -  Sums & Asymptotics
+
+
+
+### References
+6.042 L13 Asymptotic Notation Problems
+
+
+6.042 L13 Asymptotic Notation Above Problems w/ Solutions
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -41,14 +66,33 @@ EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum 
 0	1	1	2	3	5	8	13	.	. 	you get it  
 
 formally defined:
-<p align="center"><img src="/tex/c5f57f824bc9cb64e2efb76ef287283d.svg?invert_in_darkmode&sanitize=true" align=middle width=414.42354854999996pt height=75.6164376pt/></p>
+<p align="center"><img src="/tex/dfa96c5fd15d677b60c40b255cfb9761.svg?invert_in_darkmode&sanitize=true" align=middle width=414.42354854999996pt height=105.20548004999999pt/></p>
+
+
+
 
 
 
 ### References
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
 
+
+[Solving Recurrence Relations](https://www.youtube.com/watch?v=7mhvA5L7KqY)  
+
+
+[6.042 pdf notes - recurrences](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
+
+
+[basic Proof by induction](https://www.youtube.com/watch?v=t_3ACuzEe_8)  
+
+
+
+
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
