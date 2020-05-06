@@ -81,6 +81,34 @@ $$
 \end{equation}
 $$
 
+[Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+
+$$
+\begin{equation}
+  a_n - a_{n-1} = k
+\end{equation}
+\begin{equation}
+  a_0 = c
+\end{equation}
+$$
+
+Thats to say where the difference between one element in the sequence and the next is constant (k in this equation) and the base case is c the following holds:  
+$$
+\begin{equation}
+  a_n = c + \sum_{i=1}^{n}k
+\end{equation}
+$$
+
+Note: (summation proof @ 14m)
+$$
+\begin{equation}
+  \sum_{i=1}^{n}i = \frac{n(n+1)}{2}
+\end{equation}
+$$
+
+
+
+
 
 
 
@@ -88,6 +116,12 @@ $$
 
 ### References
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+
+Sumation proof @ 14m
+
+
+
+[Discrete Mathematics] Nonhomogeneous Recurrence Relations
 
 
 [Solving Recurrence Relations](https://www.youtube.com/watch?v=7mhvA5L7KqY)  
