@@ -35,14 +35,11 @@ Maths needs to be good enough to support Algorithms
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Asymptotic Notation
 
+6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
 
-6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method
+6.042 2010 - L12 -  Sums ()  
 
-
-6.042 2010 - L12 -  Sums
-
-
-6.042 2010 - L13 -  Sums & Asymptotics
+6.042 2010 - L13 -  Sums & Asymptotics ()  
 
 
 
@@ -71,7 +68,7 @@ $$
   a_n = a_{n-1} + a_{n-2}
 \end{equation}
 \begin{equation}
-  for n \geq 2
+  n \geq 2
 \end{equation}
 \begin{equation}
   a_0 = 0
