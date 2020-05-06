@@ -1,7 +1,11 @@
 #! /usr/bin/env python
 # 3.7
 # create MD for TOC
+# set DEFAULT_FILE to relevant RTF course notes
+# DEFAULT_README = Path('./README.md')        # < in not using equations
+# DEFAULT_README = Path('./README.tex.md')    # < if Texify installed it will convert the Latex into equations
 
+# passing a .md file as argument will print a TOC for that file
 
 import os
 import subprocess
@@ -116,7 +120,7 @@ def create_TOC_as_string_from_TOC_nested_list(toc_list):
 
 
 #DEFAULT_FILE = Path('context.md')
-DEFAULT_FILE = Path('/Users/simon/a_syllabus/_COURSES_00_WIP/ALGO_00_Intro_2_Algorithms_MIT.rtf')
+DEFAULT_FILE = Path('/Users/simon/a_syllabus/_COURSES_00_WIP/MATHS_00_MIT_6.042.rtf')
 def get_mark_down(filename=DEFAULT_FILE):
         
     with open(filename) as f:
@@ -196,5 +200,7 @@ if __name__ == '__main__':
         print(f"git push: {return_code}")        
     else:
         print(f"\n\n{return_code}\n")
+    
+    print(f"\n\n{toc_string}\n\n")
     
     print(f"\n\n{report}")
