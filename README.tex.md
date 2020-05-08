@@ -31,7 +31,7 @@ Sometimes an equation in unintelligible due to lack of vocabulary / symbol knowl
 
 A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
 A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
-Good to know you [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Good to know your [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
 Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
 Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
