@@ -25,7 +25,15 @@ Maths revision & learning
 
 ## AIM:  
 
-Maths needs to be good enough to support Algorithms
+Maths needs to be good enough to support MIT Algorithms course  
+
+Sometimes an equation in unintelligible due to lack of vocabulary / symbol knowledge!!  
+
+A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
+A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
+Good to know you [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
+Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
 
 
@@ -56,6 +64,7 @@ Maths needs to be good enough to support Algorithms
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Recurrence resolution for - Algos L3 34m 
+[MIT Recurences - C10](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
 
 Recurrence is basically a computable sequence set out from a set of start rules and a base case.  
   
@@ -78,8 +87,11 @@ $$
 \end{equation}
 $$
 
-[Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+[Recurrence Relations](https://www.youtube.com/watch?v=eAaP4XaB8hM) Discrete Mathematics 15m   
+Also see p303 MIT Recurrences - C10  
 
+In an example series: 0	2	6	12	20	30  
+Where the difference between element is 2n  
 $$
 \begin{equation}
   a_n - a_{n-1} = k
@@ -96,7 +108,7 @@ $$
 \end{equation}
 $$
 
-Note: (summation proof @ 14m)
+Note: (summation proof @ 14m)  
 $$
 \begin{equation}
   \sum_{i=1}^{n}i = \frac{n(n+1)}{2}
