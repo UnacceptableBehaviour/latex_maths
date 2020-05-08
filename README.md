@@ -35,14 +35,11 @@ Maths needs to be good enough to support Algorithms
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Asymptotic Notation
 
+6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
 
-6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method
+6.042 2010 - L12 -  Sums ()  
 
-
-6.042 2010 - L12 -  Sums
-
-
-6.042 2010 - L13 -  Sums & Asymptotics
+6.042 2010 - L13 -  Sums & Asymptotics ()  
 
 
 
@@ -66,7 +63,20 @@ EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum 
 0	1	1	2	3	5	8	13	.	. 	you get it  
 
 formally defined:
-<p align="center"><img src="/tex/dfa96c5fd15d677b60c40b255cfb9761.svg?invert_in_darkmode&sanitize=true" align=middle width=414.42354854999996pt height=105.20548004999999pt/></p>
+<p align="center"><img src="/tex/365ef2065a5108e48b0b4612da56d011.svg?invert_in_darkmode&sanitize=true" align=middle width=414.42354854999996pt height=105.20548004999999pt/></p>
+
+[Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+
+<p align="center"><img src="/tex/6d0986d910306d65abc9c4c5b76b6e85.svg?invert_in_darkmode&sanitize=true" align=middle width=401.72942205pt height=46.0273968pt/></p>
+
+Thats to say where the difference between one element in the sequence and the next is constant (k in this equation) and the base case is c the following holds:  
+<p align="center"><img src="/tex/4cd90702be576c3a7ed0351c67c18f50.svg?invert_in_darkmode&sanitize=true" align=middle width=401.2965165pt height=44.89738935pt/></p>
+
+Note: (summation proof @ 14m)
+<p align="center"><img src="/tex/8182cc03706f858356e39b08f4cc0a9d.svg?invert_in_darkmode&sanitize=true" align=middle width=409.5568059pt height=44.89738935pt/></p>
+
+
+
 
 
 
@@ -75,6 +85,12 @@ formally defined:
 
 ### References
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+
+Sumation proof @ 14m
+
+
+
+[Discrete Mathematics] Nonhomogeneous Recurrence Relations
 
 
 [Solving Recurrence Relations](https://www.youtube.com/watch?v=7mhvA5L7KqY)  
