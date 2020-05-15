@@ -89,19 +89,21 @@ leaving
 
 Note where  
 \begin{equation}
-   \mbox{for }|x| < 1  
+   \mbox{absolute }|x| < 1  \mbox{  when } n \to \infty
 \end{equation}
 \begin{equation}
-   \mbox{while } n \to \infty
-\end{equation}
-\begin{equation}
-   x^n \to 0
+   x^n \to 0  \mbox{  since x < 1 become minuscule tending to 0}
 \end{equation}
 \begin{equation}
    \mbox{so } S = \frac{1}{1-x}
 \end{equation}
 
-21m40 geometric series - where $
+24m
+\begin{equation}
+  \mbox{if } |x| < 1 \mbox{, } \sum_{i=1}^{\infty}ix^i = \frac{x}{{(1-x)}^2}
+\end{equation}
+
+
 
 
 
