@@ -3,26 +3,30 @@ file:/a_syllabus/_COURSES_00_WIP/MATHS_00_MIT_6.042.rtf
 REPO: 
 
 Abstract
-Maths revision & learning
+Maths revision & learning 
+[MIT 6.042J](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/syllabus/)  
 
 ## Contents  
 1. [AIM:](#aim)  
 2. [Asymptotic Notation](#asymptotic-notation)  
 	1. [6.042 2010 - L12 -  Sums ()](#6042-2010--l12---sums-)  
-3. [References](#references)  
+	2. [Problems](#problems)  
+	3. [6.042 2010 - L13 -  Sums & Asymptotics ()](#6042-2010--l13---sums--asymptotics-)  
+	4. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
+	5. [References](#references)  
+3. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
+	1. [Problems](#problems)  
+	2. [References](#references)  
+4. [Another topic](#another-topic)  
 	1. [References](#references)  
-4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
-	1. [References](#references)  
-5. [Another topic](#another-topic)  
-	1. [References](#references)  
-6. [How To s](#how-to-s)  
+5. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-7. [References](#references)  
+6. [References](#references)  
 
 
 ## AIM:  
@@ -83,26 +87,51 @@ leaving
    S = \frac{1 - x^n}{1-x}
 \end{equation}
 
+Note where  
+\begin{equation}
+   \mbox{for }|x| < 1  
+\end{equation}
+\begin{equation}
+   \mbox{while } n \to \infty
+\end{equation}
+\begin{equation}
+   x^n \to 0
+\end{equation}
+\begin{equation}
+   \mbox{so } S = \frac{1}{1-x}
+\end{equation}
 
-6.042 2010 - L13 -  Sums & Asymptotics ()  
+21m40 geometric series - where $
 
-6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
+
+
+
+### Problems
+6.042 L13 Asymptotic Notation Problems
+
+
+6.042 L13 Asymptotic Notation Above Problems w/ Solutions
+
+
+
+
+
+### 6.042 2010 - L13 -  Sums & Asymptotics ()  
+
+
+
+### 6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
+	move this to algo repo no?
 	Solving Recurrences
 	16:50 | 1: Substitution Method
 	37:45 | 2: Recursion-tree Method		<<
 	48:40 | 3: Master Method
 
 
-## References
 
 
 
 ### References
-6.042 L13 Asymptotic Notation Problems
-
-
-6.042 L13 Asymptotic Notation Above Problems w/ Solutions
-
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -166,6 +195,8 @@ $$
 
 
 
+
+### Problems
 
 
 
