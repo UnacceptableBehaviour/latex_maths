@@ -67,22 +67,18 @@ Using perturbation method to prove:
 \begin{equation}
     \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
 \end{equation}
-
-\begin{equation}
-    \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
-\end{equation}
 \begin{equation}
     S = 1 + x +x^2 +x^3 +x^{n-1}
 \end{equation}
-\text{seriex S * x}
+seriex S * x
 \begin{equation}
    xS = \;\; x +x^2 +x^3 +x^{n-1} +x^n
 \end{equation}
-\text{subtracting the two}
+subtracting xS from S
 \begin{equation}
    (1-x)S = 1 - x^n
 \end{equation}
-\text{leaving}
+leaving
 \begin{equation}
    S = \frac{1 - x^n}{1-x}
 \end{equation}
