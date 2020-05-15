@@ -48,12 +48,25 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 ### 6.042 2010 - L12 -  Sums ()  
 List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)    
 
-**Notes on lecture**
+**Notes on lecture**  
 Annuity - pays a fixed amount of value every years **(m)** for a number of years **(n)**  
-Q: you want <img src="/tex/a244f44a203ed6897349ba5829a81d6e.svg?invert_in_darkmode&sanitize=true" align=middle width=183.10389239999998pt height=22.831056599999986pt/>1M today or <img src="/tex/48abfd2f2d591bea64c869806c8e6de6.svg?invert_in_darkmode&sanitize=true" align=middle width=95.43410579999998pt height=22.831056599999986pt/>500K ?  
+Q: you want EU50000 a year for 20 years of EU1M today or EU700K today or EU500K ?  
 Calculating value of annuity (shown 1m - 9m48):  
 <p align="center"><img src="/tex/177f113e0b6e80337d8c1599c855a813.svg?invert_in_darkmode&sanitize=true" align=middle width=460.27190385pt height=109.51167315pt/></p>
 
+
+
+Using perturbation method to prove:  
+<p align="center"><img src="/tex/ebb1fb3b12e0db54ec05421b54d91843.svg?invert_in_darkmode&sanitize=true" align=middle width=407.67503370000003pt height=47.35857885pt/></p>
+
+<p align="center"><img src="/tex/ebb1fb3b12e0db54ec05421b54d91843.svg?invert_in_darkmode&sanitize=true" align=middle width=407.67503370000003pt height=47.35857885pt/></p>
+<p align="center"><img src="/tex/70db5002927e8773cea3f19923881725.svg?invert_in_darkmode&sanitize=true" align=middle width=449.95308270000004pt height=18.312383099999998pt/></p>
+\text{seriex S * x}
+<p align="center"><img src="/tex/6566433c79482260ec6861bc8c2202d6.svg?invert_in_darkmode&sanitize=true" align=middle width=464.27852624999997pt height=18.312383099999998pt/></p>
+\text{subtracting the two}
+<p align="center"><img src="/tex/92ce160ae3d15e5d3514605a50da4be3.svg?invert_in_darkmode&sanitize=true" align=middle width=415.18152884999995pt height=16.438356pt/></p>
+\text{leaving}
+<p align="center"><img src="/tex/214cd0f36be857955d171a3e1fdb7c7e.svg?invert_in_darkmode&sanitize=true" align=middle width=391.90872435pt height=34.68611685pt/></p>
 
 
 6.042 2010 - L13 -  Sums & Asymptotics ()  
