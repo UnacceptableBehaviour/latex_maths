@@ -48,9 +48,9 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 ### 6.042 2010 - L12 -  Sums ()  
 List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)    
 
-**Notes on lecture**
+**Notes on lecture**  
 Annuity - pays a fixed amount of value every years **(m)** for a number of years **(n)**  
-Q: you want $50000 a year for 20 years of $1M today or $700K today or $500K ?  
+Q: you want EU50000 a year for 20 years of EU1M today or EU700K today or EU500K ?  
 Calculating value of annuity (shown 1m - 9m48):  
 $$
 \begin{equation}
@@ -61,6 +61,31 @@ $$
 \end{equation}
 $$
 
+
+
+Using perturbation method to prove:  
+\begin{equation}
+    \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
+\end{equation}
+
+\begin{equation}
+    \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
+\end{equation}
+\begin{equation}
+    S = 1 + x +x^2 +x^3 +x^{n-1}
+\end{equation}
+\text{seriex S * x}
+\begin{equation}
+   xS = \;\; x +x^2 +x^3 +x^{n-1} +x^n
+\end{equation}
+\text{subtracting the two}
+\begin{equation}
+   (1-x)S = 1 - x^n
+\end{equation}
+\text{leaving}
+\begin{equation}
+   S = \frac{1 - x^n}{1-x}
+\end{equation}
 
 
 6.042 2010 - L13 -  Sums & Asymptotics ()  
