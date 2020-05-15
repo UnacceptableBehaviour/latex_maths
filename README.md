@@ -25,7 +25,15 @@ Maths revision & learning
 
 ## AIM:  
 
-Maths needs to be good enough to support Algorithms
+Maths needs to be good enough to support MIT Algorithms course  
+
+Sometimes an equation in unintelligible due to lack of vocabulary / symbol knowledge!!  
+
+A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
+A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
+Good to know you [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
+Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
 
 
@@ -56,6 +64,7 @@ Maths needs to be good enough to support Algorithms
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Recurrence resolution for - Algos L3 34m 
+[MIT Recurences - C10](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
 
 Recurrence is basically a computable sequence set out from a set of start rules and a base case.  
   
@@ -65,14 +74,17 @@ EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum 
 formally defined:
 <p align="center"><img src="/tex/365ef2065a5108e48b0b4612da56d011.svg?invert_in_darkmode&sanitize=true" align=middle width=414.42354854999996pt height=105.20548004999999pt/></p>
 
-[Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
+[Recurrence Relations](https://www.youtube.com/watch?v=eAaP4XaB8hM) Discrete Mathematics 15m   
+Also see p303 MIT Recurrences - C10  
 
+In an example series: 0	2	6	12	20	30  
+Where the difference between element is 2n  
 <p align="center"><img src="/tex/6d0986d910306d65abc9c4c5b76b6e85.svg?invert_in_darkmode&sanitize=true" align=middle width=401.72942205pt height=46.0273968pt/></p>
 
 Thats to say where the difference between one element in the sequence and the next is constant (k in this equation) and the base case is c the following holds:  
 <p align="center"><img src="/tex/4cd90702be576c3a7ed0351c67c18f50.svg?invert_in_darkmode&sanitize=true" align=middle width=401.2965165pt height=44.89738935pt/></p>
 
-Note: (summation proof @ 14m)
+Note: (summation proof @ 14m)  
 <p align="center"><img src="/tex/8182cc03706f858356e39b08f4cc0a9d.svg?invert_in_darkmode&sanitize=true" align=middle width=409.5568059pt height=44.89738935pt/></p>
 
 
