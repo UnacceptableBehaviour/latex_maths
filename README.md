@@ -8,30 +8,32 @@ Maths revision & learning
 ## Contents  
 1. [AIM:](#aim)  
 2. [Asymptotic Notation](#asymptotic-notation)  
+	1. [6.042 2010 - L12 -  Sums ()](#6042-2010--l12---sums-)  
+3. [References](#references)  
 	1. [References](#references)  
-3. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
+4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
 	1. [References](#references)  
-4. [Another topic](#another-topic)  
+5. [Another topic](#another-topic)  
 	1. [References](#references)  
-5. [How To s](#how-to-s)  
+6. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-6. [References](#references)  
+7. [References](#references)  
 
 
 ## AIM:  
 
 Maths needs to be good enough to support MIT Algorithms course  
 
-Sometimes an equation in unintelligible due to lack of vocabulary / symbol knowledge!!  
+Sometimes an equation is unintelligible due to lack of vocabulary / symbol knowledge!!  
 
-A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
+A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
 A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
-Good to know you [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Good to know your [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
 Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
 Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
@@ -43,11 +45,27 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Asymptotic Notation
 
-6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
+### 6.042 2010 - L12 -  Sums ()  
+List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)    
 
-6.042 2010 - L12 -  Sums ()  
+**Notes on lecture**
+Annuity - pays a fixed amount of value every years **(m)** for a number of years **(n)**  
+Q: you want <img src="/tex/a244f44a203ed6897349ba5829a81d6e.svg?invert_in_darkmode&sanitize=true" align=middle width=183.10389239999998pt height=22.831056599999986pt/>1M today or <img src="/tex/48abfd2f2d591bea64c869806c8e6de6.svg?invert_in_darkmode&sanitize=true" align=middle width=95.43410579999998pt height=22.831056599999986pt/>500K ?  
+Calculating value of annuity (shown 1m - 9m48):  
+<p align="center"><img src="/tex/177f113e0b6e80337d8c1599c855a813.svg?invert_in_darkmode&sanitize=true" align=middle width=460.27190385pt height=109.51167315pt/></p>
+
+
 
 6.042 2010 - L13 -  Sums & Asymptotics ()  
+
+6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
+	Solving Recurrences
+	16:50 | 1: Substitution Method
+	37:45 | 2: Recursion-tree Method		<<
+	48:40 | 3: Master Method
+
+
+## References
 
 
 
@@ -64,7 +82,7 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Recurrence resolution for - Algos L3 34m 
-[MIT Recurences - C10](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
+[MIT Recurrences - C10](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
 
 Recurrence is basically a computable sequence set out from a set of start rules and a base case.  
   
@@ -99,8 +117,6 @@ Note: (summation proof @ 14m)
 [Recurrence Relations - Discrete Maths](https://www.youtube.com/watch?v=eAaP4XaB8hM)   
 
 Sumation proof @ 14m
-
-
 
 [Discrete Mathematics] Nonhomogeneous Recurrence Relations
 
