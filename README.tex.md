@@ -53,7 +53,9 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 ## logarithms - identities & basic manipulation
 
 Relationship between power, root & log:  
+$$
 
+$$
 
 
 include tiangle notation video
