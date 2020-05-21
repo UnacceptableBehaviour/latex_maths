@@ -53,18 +53,30 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 ## logarithms - identities & basic manipulation
 
 Relationship between power, root & log:  
-$$
+\begin{equation}
+   \mbox{given }\hspace{10pt}x^y = z \hspace{30pt} log_x(z) = y \hspace{30pt} \sqrt[y]{z} = x
+\end{equation}
+\begin{equation}
+   \mbox{ inverse operations } 
+\end{equation}
+\begin{equation}
+     x^{log_x(z)} = z \hspace{30pt} log_x(x^y) = y
+\end{equation}
+\begin{equation}
+     log_{\sqrt[y]{z}}(z) = y \hspace{30pt} \sqrt[log_x(z)]{z} = x
+\end{equation}
+\begin{equation}
+     \sqrt[y]{x^y} = x \hspace{30pt} (\sqrt[y]{z})^y = z
+\end{equation}
 
-$$
+Interesting notation and [video on how the 3 relate](https://www.youtube.com/watch?v=sULa9Lc4pck)
 
-
-include tiangle notation video
 
 basic manipulations
 
-tests links to test
-
-
+[Tests Qs](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
+[Qs log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf)  
+[As log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
 
 
 ### References
@@ -281,7 +293,7 @@ Limits algebra - manipulations and rules.
 > pip install numpy				# math sci lib 
 > ./matplotlib/plot.py			# super basic 2d plot example
 ```
-
+3d plots - [tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html)  
 
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
