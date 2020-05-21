@@ -53,16 +53,20 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 ## logarithms - identities & basic manipulation
 
 Relationship between power, root & log:  
-<p align="center"><img src="/tex/e7e1fce898b1583cb28cc71db94ffdd5.svg?invert_in_darkmode&sanitize=true" align=middle width=0.0pt height=0.0pt/></p>
+<p align="center"><img src="/tex/512c8610141af92f2621de5dd0301d67.svg?invert_in_darkmode&sanitize=true" align=middle width=520.9960222499999pt height=17.4097869pt/></p>
+<p align="center"><img src="/tex/49dcd5642097d1b56965fd9484c0f07c.svg?invert_in_darkmode&sanitize=true" align=middle width=414.65764724999997pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/4433ead9ede1b782e996181c72cd26c6.svg?invert_in_darkmode&sanitize=true" align=middle width=460.7668642499999pt height=19.526994300000002pt/></p>
+<p align="center"><img src="/tex/7fa3f8b9c941502d49a66573bee92f57.svg?invert_in_darkmode&sanitize=true" align=middle width=464.88495735000004pt height=19.703826449999998pt/></p>
+<p align="center"><img src="/tex/99ae4551780e4c63110cb7fc125f132e.svg?invert_in_darkmode&sanitize=true" align=middle width=442.46762999999993pt height=18.72257805pt/></p>
 
+Interesting notation and [video on how the 3 relate](https://www.youtube.com/watch?v=sULa9Lc4pck)
 
-include tiangle notation video
 
 basic manipulations
 
-tests links to test
-
-
+[Tests Qs](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
+[Qs log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf)  
+[As log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
 
 
 ### References
@@ -226,7 +230,7 @@ Limits algebra - manipulations and rules.
 > pip install numpy				# math sci lib 
 > ./matplotlib/plot.py			# super basic 2d plot example
 ```
-
+3d plots - [tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html)  
 
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
