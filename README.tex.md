@@ -8,25 +8,28 @@ Maths revision & learning
 
 ## Contents  
 1. [AIM:](#aim)  
-2. [Asymptotic Notation](#asymptotic-notation)  
+2. [logarithms - identities & basic manipulation](#logarithms--identities--basic-manipulation)  
+	1. [References](#references)  
+3. [Asymptotic Notation](#asymptotic-notation)  
 	1. [6.042 2010 - L12 -  Sums ()](#6042-2010--l12---sums-)  
 	2. [Problems](#problems)  
 	3. [6.042 2010 - L13 -  Sums & Asymptotics ()](#6042-2010--l13---sums--asymptotics-)  
 	4. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
 	5. [References](#references)  
-3. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
+4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
 	1. [Problems](#problems)  
 	2. [References](#references)  
-4. [Another topic](#another-topic)  
+5. [Another topic](#another-topic)  
 	1. [References](#references)  
-5. [How To s](#how-to-s)  
-	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
-	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
-	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
-	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
+6. [How To s](#how-to-s)  
+	1. [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
+	2. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
+	3. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
+	4. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
+	5. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-6. [References](#references)  
+7. [References](#references)  
 
 
 ## AIM:  
@@ -41,6 +44,32 @@ Good to know your [Greek symbols & Latex](https://www.nyu.edu/projects/beber/fil
 Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
 Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## logarithms - identities & basic manipulation
+
+Relationship between power, root & log:  
+
+
+
+include tiangle notation video
+
+basic manipulations
+
+tests links to test
+
+
+
+
+### References
+Logarithmic identities
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
@@ -92,7 +121,7 @@ Note where
    \mbox{absolute }|x| < 1  \mbox{  when } n \to \infty
 \end{equation}
 \begin{equation}
-   x^n \to 0  \mbox{  since x < 1 become minuscule tending to 0}
+   x^n \to 0  \mbox{  since } x < 1,  x^n becomes minuscule tending to 0}
 \end{equation}
 \begin{equation}
    \mbox{so } S = \frac{1}{1-x}
@@ -243,6 +272,15 @@ Limits algebra - manipulations and rules.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## How To s
+### How so I plot a chart with python?
+```
+> .pe							# alias .pe='. venv/bin/activate'
+> pip install matplotlib			# plotting lib
+> pip install numpy				# math sci lib 
+> ./matplotlib/plot.py			# super basic 2d plot example
+```
+
+
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
 This pdf doc is generated using TeXShop from [hello_world.tex](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.tex)  
