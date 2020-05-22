@@ -8,7 +8,9 @@ Maths revision & learning
 
 ## Contents  
 1. [AIM:](#aim)  
-2. [logarithms - identities & basic manipulation](#logarithms--identities--basic-manipulation)  
+2. [Logarithms - identities & basic manipulation](#logarithms--identities--basic-manipulation)  
+		1. [Identities](#identities)  
+		2. [Practice questions](#practice-questions)  
 	1. [References](#references)  
 3. [Asymptotic Notation](#asymptotic-notation)  
 	1. [6.042 2010 - L12 -  Sums ()](#6042-2010--l12---sums-)  
@@ -50,7 +52,10 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-## logarithms - identities & basic manipulation
+## Logarithms - identities & basic manipulation
+
+#### Identities  
+[Good plain resource identities w/ examples](https://courses.cs.washington.edu/courses/cse373/19sp/resources/math/exponents-and-logs/) Logarithmic [identities:](https://en.wikipedia.org/wiki/List_of_logarithmic_identities)  
 
 Relationship between power, root & log:  
 \begin{equation}
@@ -69,19 +74,21 @@ Relationship between power, root & log:
      \sqrt[y]{x^y} = x \hspace{30pt} (\sqrt[y]{z})^y = z
 \end{equation}
 
-Interesting notation and [video on how the 3 relate](https://www.youtube.com/watch?v=sULa9Lc4pck)
+Interesting notation and [video on how the 3 relate - and triangle notation](https://www.youtube.com/watch?v=sULa9Lc4pck)
 
 
-basic manipulations
 
-[Tests Qs](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
-[Qs log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf)  
-[As log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
+#### Practice questions
+1. [Tests Q s - Pauls Online Notes](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
+2. [Q s log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf) [Answers](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
 
 
 ### References
 Logarithmic identities
+https://en.wikipedia.org/wiki/List_of_logarithmic_identities
 
+Good plain resource identities w/ examples
+https://courses.cs.washington.edu/courses/cse373/19sp/resources/math/exponents-and-logs/
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
