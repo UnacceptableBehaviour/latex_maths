@@ -25,10 +25,11 @@ Maths revision & learning
 	1. [References](#references)  
 6. [How To s](#how-to-s)  
 	1. [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
-	2. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
-	3. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
-	4. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
-	5. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
+	2. [How do I save that chart to disk?](#how-do-i-save-that-chart-to-disk)  
+	3. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
+	4. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
+	5. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
+	6. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
 7. [References](#references)  
@@ -79,18 +80,18 @@ Interesting notation and [video on how the 3 relate - and triangle notation](htt
 
 
 #### Practice questions
-1. [Tests Q s - Pauls Online Notes](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
-2. [Q s log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf) and [Answers](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
+1. [Tests Q s - Pauls Online Notes](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx) refresher DONE  
+2. [Q s log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf) and [Answers](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf) TODO  
 
 
 ### References
-Logarithmic identities
+Logarithmic identities  
 https://en.wikipedia.org/wiki/List_of_logarithmic_identities
 
-Good plain resource identities w/ examples
+Good plain resource identities w/ examples  
 https://courses.cs.washington.edu/courses/cse373/19sp/resources/math/exponents-and-logs/
 
-Washington Edu
+Washington Edu  
 https://courses.cs.washington.edu/courses/cse373/19sp/resources/
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -298,12 +299,23 @@ Limits algebra - manipulations and rules.
 ## How To s
 ### How so I plot a chart with python?
 ```
-> .pe							# alias .pe='. venv/bin/activate'
+> .pe						# alias .pe='. venv/bin/activate'
 > pip install matplotlib			# plotting lib
 > pip install numpy				# math sci lib 
-> ./matplotlib/plot.py			# super basic 2d plot example
+> ./matplotlib/plot.py				# super basic 2d plot example
 ```
 3d plots - [tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html)  
+
+### How do I save that chart to disk?
+Simplest way is to click the disk icon on the display and save to the appropriate place.
+Follow instructions to generate chart: [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
+From the code:  
+```
+> pip install pillow												# support jpg
+import matplotlib.pyplot as plt 									# follow ab
+plt.plot(elements, zero_2pow_zero, label="Limits n^n n->0 (zero ^ zero)")	# create chart
+plt.savefig('matplot_graph.jpg')									# save chart
+```
 
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
