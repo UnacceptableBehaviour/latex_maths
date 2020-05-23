@@ -304,6 +304,7 @@ Limits algebra - manipulations and rules.
 > pip install numpy				# math sci lib 
 > ./matplotlib/plot.py				# super basic 2d plot example
 ```
+[./matplotlib/plot.py](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/matplotlib/plot.py)  
 3d plots - [tutorial](https://jakevdp.github.io/PythonDataScienceHandbook/04.12-three-dimensional-plotting.html)  
 
 ### How do I save that chart to disk?
@@ -311,11 +312,14 @@ Simplest way is to click the disk icon on the display and save to the appropriat
 Follow instructions to generate chart: [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
 From the code:  
 ```
-> pip install pillow												# support jpg
-import matplotlib.pyplot as plt 									# follow ab
+> pip install pillow								# support jpg
+import matplotlib.pyplot as plt 						# follow ab
 plt.plot(elements, zero_2pow_zero, label="Limits n^n n->0 (zero ^ zero)")	# create chart
-plt.savefig('matplot_graph.jpg')									# save chart
+plt.savefig('matplot_graph.jpg')						# save chart
 ```
+Example : ) 
+![matplot_graph.jpg](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/matplotlib/images/matplot_graph.jpg)  
+
 
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
