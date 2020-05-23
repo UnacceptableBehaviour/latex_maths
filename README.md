@@ -70,7 +70,7 @@ Interesting notation and [video on how the 3 relate - and triangle notation](htt
 
 #### Practice questions
 1. [Tests Q s - Pauls Online Notes](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx)  
-2. [Q s log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf) [Answers](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
+2. [Q s log & exponential quiz qs from studywell.com](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesQuestions.pdf) and [Answers](https://studywell.com/wp-content/uploads/2018/03/SolomonLogRulesSolutions.pdf)  
 
 
 ### References
@@ -79,6 +79,9 @@ https://en.wikipedia.org/wiki/List_of_logarithmic_identities
 
 Good plain resource identities w/ examples
 https://courses.cs.washington.edu/courses/cse373/19sp/resources/math/exponents-and-logs/
+
+Washington Edu
+https://courses.cs.washington.edu/courses/cse373/19sp/resources/
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
