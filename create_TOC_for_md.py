@@ -208,8 +208,8 @@ if __name__ == '__main__':
         
         return_code = subprocess.call(['git','add',DEFAULT_README]) # note command separation inside list! [ ]
         print(f"git add {DEFAULT_README}: {return_code}")          # ^----/
-    
-        return_code = subprocess.call(["git","commit",f"-m'autogen {DEFAULT_README}:{commit_comment}'"])
+            
+        return_code = subprocess.call(["git","commit",f"-m autogen {DEFAULT_README}:{commit_comment}"])
         print(f"git commit -m'autogen {DEFAULT_README}: {commit_comment}'")
     
         return_code = subprocess.call(['git','push'])
