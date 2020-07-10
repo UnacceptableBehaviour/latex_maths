@@ -21,18 +21,21 @@ Maths revision & learning
 4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for--algos-l3-34m)  
 	1. [Problems](#problems)  
 	2. [References](#references)  
-5. [Another topic](#another-topic)  
-	1. [References](#references)  
-6. [How To s](#how-to-s)  
+5. [Python - matplotlib, numpy](#python--matplotlib-numpy)  
 	1. [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
 	2. [How do I save that chart to disk?](#how-do-i-save-that-chart-to-disk)  
-	3. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
-	4. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
-	5. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
-	6. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
+	3. [How Do I invert x axis?](#how-do-i-invert-x-axis)  
+	4. [References](#references)  
+6. [Another topic](#another-topic)  
+	1. [References](#references)  
+7. [How To s](#how-to-s)  
+	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
+	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
+	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
+	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-7. [References](#references)  
+8. [References](#references)  
 
 
 ## AIM:  
@@ -209,31 +212,12 @@ Sumation proof @ 14m
 
 [basic Proof by induction](https://www.youtube.com/watch?v=t_3ACuzEe_8)  
 
-
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-
-
-
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-## Another topic
-
-
-
-
-### References
-Limits algebra - manipulations and rules.
-
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-## How To s
+## Python - matplotlib, numpy
 ### How so I plot a chart with python?
 ```
 > .pe						# alias .pe='. venv/bin/activate'
@@ -257,7 +241,41 @@ plt.savefig('matplot_graph.jpg')						# save chart
 Example : ) 
 ![matplot_graph.jpg](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/matplotlib/images/matplot_graph.jpg)  
 
+### How Do I invert x axis?
+```
+import matplotlib.pyplot as plt 						# follow ab
+plt.plot(elements, zero_2pow_zero, label="Limits n^n n->0 (zero ^ zero)")	# create chart
+plt.gca().invert_xaxis()				# INVERT axis or invert_yaxis()
+```
 
+
+
+### References
+Matplotlib 
+
+Matplotlib - Examples
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## Another topic
+
+
+
+
+### References
+Limits algebra - manipulations and rules.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## How To s
 ### Where are Latex Examples for this repo?
 [Example equations in PDF format](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.pdf)  
 This pdf doc is generated using TeXShop from [hello_world.tex](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/hello_world.tex)  
