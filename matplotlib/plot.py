@@ -13,7 +13,7 @@ from pprint import pprint
 
 from pathlib import Path
 
-IMAGE_SCRATCH = Path('../scratch')    # scratch space not maintained by git
+IMAGE_SCRATCH = Path('./scratch')    # scratch space not maintained by git
 # NOTE to save jpg using matplotlib
 #> pip install pillow
 # plt.plot([1, 2])
@@ -50,17 +50,20 @@ for n in float_range:
     zero_2pow_zero.append(pow(n, n))    # pow(n,n) == n**n
     
 
-plt.xlabel('elements') 
-plt.ylabel('operations')
+plt.xlabel('n')               # elements
+plt.ylabel('n ^ n')          # 
 # plt.xscale('log')               # set x scale logarithmic
 # plt.yscale('log')               # set y scale logarithmic
 
 #plt.plot(elements, cos, label = "Graph of Cos (n deg to rads)")
 plt.plot(elements, zero_2pow_zero, label="Limits n^n n->0 (zero ^ zero)")
+plt.gca().invert_xaxis()
+
 
 plt.grid() 
 plt.legend()
-plt.savefig( IMAGE_SCRATCH.join('matplot_graph.jpg') )
+print(Path.cwd())
+plt.savefig( IMAGE_SCRATCH.joinpath('matplot_graph.jpg') )
 plt.show()
 
 
