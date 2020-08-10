@@ -117,19 +117,24 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 
 #### Vid contents
 0-18m annuity equation  
-9m50 total current value of an n year annuity of annual value mUSD
-12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction
-<p align="center"><img src="/tex/145490d619e6a92032fe5b46b5f07fa7.svg?invert_in_darkmode&sanitize=true" align=middle width=463.88098679999996pt height=47.35857885pt/></p>
-12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.
-18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333
-21m40 geometric series - where - getting closed form formulas  
+9m50 total current value of an n year annuity of annual value mUSD  
+12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction  
+<p align="center"><img src="/tex/5db431ab4b10a590ebadc3a10be5397e.svg?invert_in_darkmode&sanitize=true" align=middle width=463.88098679999996pt height=47.35857885pt/></p>
+12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.  
+18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333  
+21m40   series - where - getting closed form formulas   
+21m50 Sum to infinity of x^i wher x<1  
+<p align="center"><img src="/tex/f20ccca5edaa03e256009f88d85c3a03.svg?invert_in_darkmode&sanitize=true" align=middle width=440.60539709999995pt height=44.89738935pt/></p>
 24m  SUM ix^i  - formula 27m40  
 28m30 DERIVATIVE method  
-32m taking the derivative TWICE to solve the homework  
-34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!  
+32m taking the derivative TWICE to solve the homework   
+34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!   
 40m SUM i2^-i  
-42m proof by induction of 
+42m proof by induction of  
 <p align="center"><img src="/tex/c70c4bf439e6afaca97c35c4c1880d56.svg?invert_in_darkmode&sanitize=true" align=middle width=442.8349695pt height=44.89738935pt/></p>
+42m proof by induction of  
+
+
 NEXT - add rest of timing continue notes from 20m
 
 **Notes on lecture**  
@@ -158,12 +163,12 @@ So
 <p align="center"><img src="/tex/d09716bc9475610ad344f1c9dbde2549.svg?invert_in_darkmode&sanitize=true" align=middle width=439.92569940000004pt height=62.3703465pt/></p>
 <p align="center"><img src="/tex/68e6dff8dc1e273b10728692dcafdd3a.svg?invert_in_darkmode&sanitize=true" align=middle width=502.87851405pt height=38.83491479999999pt/></p>
 <p align="center"><img src="/tex/05d2c613a5c5381a851c4fb1b41341e9.svg?invert_in_darkmode&sanitize=true" align=middle width=449.7250032pt height=49.3922088pt/></p>
-m - payment every year
-p - interest rate
-n - number of years
-
-
-Note - payments for ever (to infinity) example
+Where  
+m - payment every year  
+p - interest rate  
+n - number of years  
+  
+Note - payments for ever (to infinity) example  
 <p align="center"><img src="/tex/21fc9ff01047352c464055002254cc01.svg?invert_in_darkmode&sanitize=true" align=middle width=560.3545183499999pt height=39.452455349999994pt/></p>
 So for m=USD50K, p=0.06 V=USD883,333
 
