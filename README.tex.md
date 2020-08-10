@@ -127,25 +127,30 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 
 #### Vid contents
 0-18m annuity equation  
-9m50 total current value of an n year annuity of annual value mUSD
-12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction
-$$
+9m50 total current value of an n year annuity of annual value mUSD  
+12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction  
 \begin{equation}
     \forall n\geq1, x\ne1, \;\;  \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
 \end{equation}
-$$
-12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.
-18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333
-21m40 geometric series - where - getting closed form formulas  
+12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.  
+18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333  
+21m40   series - where - getting closed form formulas   
+21m50 Sum to infinity of x^i wher x<1  
+\begin{equation}
+    if |x|<1,\;  \sum_{i=0}^{\infty} x^i = \frac{1}{1-x}
+\end{equation}
 24m  SUM ix^i  - formula 27m40  
 28m30 DERIVATIVE method  
-32m taking the derivative TWICE to solve the homework  
-34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!  
+32m taking the derivative TWICE to solve the homework   
+34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!   
 40m SUM i2^-i  
-42m proof by induction of 
+42m proof by induction of  
 \begin{equation}
   \sum_{i=1}^{n}i^2 = \frac{n(n+1)(2n+1)}{6}
 \end{equation}
+42m proof by induction of  
+
+
 NEXT - add rest of timing continue notes from 20m
 
 **Notes on lecture**  
@@ -207,12 +212,12 @@ So
 \begin{equation}
   V = m\left( \frac{1 + p - \frac{1}{(1+p)^{n-1}}}{p} \right)
 \end{equation}
-m - payment every year
-p - interest rate
-n - number of years
-
-
-Note - payments for ever (to infinity) example
+Where  
+m - payment every year  
+p - interest rate  
+n - number of years  
+  
+Note - payments for ever (to infinity) example  
 \begin{equation}
   if\;n=\infty, \; V = m\left( \frac{1 + p}{p} \right)\; since\; lim_{n\to\infty}\frac{1}{(1+p)^{n-1}}\rightarrow0
 \end{equation}
