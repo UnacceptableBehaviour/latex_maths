@@ -39,14 +39,15 @@ Maths revision & learning
 	4. [References](#references)  
 6. [Another topic](#another-topic)  
 	1. [References](#references)  
-7. [How To s](#how-to-s)  
+7. [Glossary / Vocab](#glossary--vocab)  
+8. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-8. [References](#references)  
+9. [References](#references)  
 
 
 ## AIM:  
@@ -57,7 +58,7 @@ Sometimes an equation is unintelligible due to lack of vocabulary / symbol knowl
 
 A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
 A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
-Good to know your [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Good to know your [Greek symbols & Latex cheat sheet pdf](http://wch.github.io/latexsheet/latexsheet-a4.pdf)  
 Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
 Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
@@ -127,6 +128,14 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 #### Vid contents
 0-18m annuity equation  
 9m50 total current value of an n year annuity of annual value mUSD
+12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction
+$$
+\begin{equation}
+    \forall n\geq1, x\ne1, \;\;  \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
+\end{equation}
+$$
+12m-15m40 Reaching CLOSED FORM expression for annuity by substituing into CLOSED FROM series just derived
+
 18m30 cover 50K for eternity  
 21m40 geometric series - where - getting closed for formulas  
 24m  SUM ix^i  - formula 27m40  
@@ -416,6 +425,11 @@ Limits algebra - manipulations and rules.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## Glossary / Vocab
+
+Proof by Induction		Show base case, show a step, then show formula holds for step +1, and 
+Perturbation Method		Take a series pertubing it - by multiplying it for example - solve simultaneous equation
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
