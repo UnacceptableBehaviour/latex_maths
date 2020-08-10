@@ -207,10 +207,17 @@ So
 \begin{equation}
   V = m\left( \frac{1 + p - \frac{1}{(1+p)^{n-1}}}{p} \right)
 \end{equation}
+m - payment every year
+p - interest rate
+n - number of years
 
 
+Note - payments for ever (to infinity) example
+\begin{equation}
+  if\;n=\infty, \; V = m\left( \frac{1 + p}{p} \right)\; since\; lim_{n\to\infty}\frac{1}{(1+p)^{n-1}}\rightarrow0
+\end{equation}
+So for m=USD50K, p=0.06 V=USD883,333
 
-Note where  
 \begin{equation}
    \mbox{absolute }|x| < 1  \mbox{  when } n \to \infty
 \end{equation}
