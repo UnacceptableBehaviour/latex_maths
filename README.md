@@ -13,11 +13,22 @@ Maths revision & learning
 		2. [Practice questions](#practice-questions)  
 	1. [References](#references)  
 3. [Asymptotic Notation](#asymptotic-notation)  
-	1. [6.042 2010 - L12 -  Sums ()](#6042-2010---l12----sums-)  
+	1. [6.042 2010 - L12 -  Sums](#6042-2010---l12----sums)  
+		1. [Vid contents](#vid-contents)  
 	2. [Problems](#problems)  
-	3. [6.042 2010 - L13 -  Sums & Asymptotics ()](#6042-2010---l13----sums--asymptotics-)  
-	4. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
-	5. [References](#references)  
+	3. [6.042 2010 - L13 -  Sums & Asymptotics](#6042-2010---l13----sums--asymptotics)  
+		1. [Vid contents](#vid-contents)  
+		2. [Notes](#notes)  
+		3. [References](#references)  
+	4. [6.042 2010 - L14 -  Divide and Conquer Recurrences](#6042-2010---l14----divide-and-conquer-recurrences)  
+		1. [Vid contents](#vid-contents)  
+		2. [Notes](#notes)  
+		3. [References](#references)  
+	5. [6.042 2010 - L15 - Linear recurrence](#6042-2010---l15---linear-recurrence)  
+		1. [Vid contents](#vid-contents)  
+		2. [Notes](#notes)  
+		3. [References](#references)  
+	6. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
 4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for---algos-l3-34m)  
 	1. [Problems](#problems)  
 	2. [References](#references)  
@@ -54,6 +65,7 @@ Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/
 
 
 
+[MIT 6.042J Mathematics for Computer Science, Fall 2010 - Video](https://www.youtube.com/watch?v=L3LMbpZIKhQ&list=PLB7540DEDD482705B)  
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Logarithms - identities & basic manipulation
@@ -69,8 +81,6 @@ Relationship between power, root & log:
 <p align="center"><img src="/tex/99ae4551780e4c63110cb7fc125f132e.svg?invert_in_darkmode&sanitize=true" align=middle width=442.46762999999993pt height=18.72257805pt/></p>
 
 Interesting notation and [video on how the 3 relate - and triangle notation](https://www.youtube.com/watch?v=sULa9Lc4pck)
-
-
 
 #### Practice questions
 1. [Tests Q s - Pauls Online Notes](https://tutorial.math.lamar.edu/Problems/Alg/SolveLogEqns.aspx) refresher DONE  
@@ -96,8 +106,27 @@ https://courses.cs.washington.edu/courses/cse373/19sp/resources/
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Asymptotic Notation
 
-### 6.042 2010 - L12 -  Sums ()  
+### 6.042 2010 - L12 -  Sums   
+[vid](https://www.youtube.com/watch?v=fAeShezAGLE) ~ 
+[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap09.pdf) ~ 
+Code: 
+Reading: [C9 Sums & Asymptotics](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap09.pdf)  
+
 List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)    
+
+#### Vid contents
+0-18m annuity equation  
+9m50 total current value of an n year annuity of annual value mUSD
+18m30 cover 50K for eternity  
+21m40 geometric series - where - getting closed for formulas  
+24m  SUM ix^i  - formula 27m40  
+28m30 DERIVATIVE method  
+32m taking the derivative TWICE to solve the homework  
+34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!  
+40m SUM i2^-i  
+42m proof by induction of 
+<p align="center"><img src="/tex/c70c4bf439e6afaca97c35c4c1880d56.svg?invert_in_darkmode&sanitize=true" align=middle width=442.8349695pt height=44.89738935pt/></p>
+NEXT - add rest of timing continue notes from 20m
 
 **Notes on lecture**  
 Annuity - pays a fixed amount of value every years **(m)** for a number of years **(n)**  
@@ -119,15 +148,18 @@ leaving
 
 Note where  
 <p align="center"><img src="/tex/1a56b4191d315e9fa9f8c88718090957.svg?invert_in_darkmode&sanitize=true" align=middle width=457.07377814999995pt height=16.438356pt/></p>
-<p align="center"><img src="/tex/fc4a9c5c8d474a8681c8f82868a70341.svg?invert_in_darkmode&sanitize=true" align=middle width=538.7532397499999pt height=16.438356pt/></p>
+<p align="center"><img src="/tex/779a64b3c277ad102cef7a5ff08d943a.svg?invert_in_darkmode&sanitize=true" align=middle width=550.1684859pt height=16.438356pt/></p>
 <p align="center"><img src="/tex/7e98dd389c723a47b5921aa7d326cd6e.svg?invert_in_darkmode&sanitize=true" align=middle width=397.5260982pt height=34.3600389pt/></p>
 
 24m
 <p align="center"><img src="/tex/d5f44556239e6f80a0c8a69b63982fbb.svg?invert_in_darkmode&sanitize=true" align=middle width=453.76757084999997pt height=44.89738935pt/></p>
 
 
-
-
+42m
+<p align="center"><img src="/tex/c70c4bf439e6afaca97c35c4c1880d56.svg?invert_in_darkmode&sanitize=true" align=middle width=442.8349695pt height=44.89738935pt/></p>
+Proof by induction guess is comes out cubic
+<p align="center"><img src="/tex/eff3f6f00c6db6383bbdab3d2affceee.svg?invert_in_darkmode&sanitize=true" align=middle width=464.7673437pt height=44.89738935pt/></p>
+<p align="center"><img src="/tex/f786e27666b733e6281c7b33d92a6329.svg?invert_in_darkmode&sanitize=true" align=middle width=275.98299629999997pt height=73.78996185pt/></p>
 
 
 ### Problems
@@ -139,11 +171,60 @@ Note where
 
 
 
+### 6.042 2010 - L13 -  Sums & Asymptotics 
+[vid](https://www.youtube.com/watch?v=X9eErxRjQEI) ~ 
+[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap09.pdf) ~ 
+[Problems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13.pdf) ~ 
+[Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13_sol.pdf) ~ 
+Reading:
 
-### 6.042 2010 - L13 -  Sums & Asymptotics ()  
+#### Vid contents
+TODO
+
+#### Notes
+
+#### References
+
+### 6.042 2010 - L14 -  Divide and Conquer Recurrences
+[vid](https://www.youtube.com/watch?v=Kqf0uO0oV6s) ~ 
+[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf) ~ 
+[Problems]() ~ 
+[Solutions]() ~ 
+Reading:
+
+#### Vid contents
+TODO
+
+#### Notes
+
+#### References
+
+
+### 6.042 2010 - L15 - Linear recurrence
+[vid](https://www.youtube.com/watch?v=TWBB-JlmYUc) ~ 
+[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf) ~ 
+[Problems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec14.pdf) ~ 
+[Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec14_sol.pdf) ~ 
+Reading:
+
+#### Vid contents
+TODO
+
+#### Notes
+
+#### References
+[Discrete Mathematics] Homogeneous Recurrence Relations 25m 
+
+
+Solving Divide and Conquer Recurrences 22m - Ref to Text book  
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ### 6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()  
 	move this to algo repo no?
 	Solving Recurrences
@@ -153,15 +234,6 @@ Note where
 
 
 
-
-
-### References
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 ## Recurrence resolution for - Algos L3 34m 
 [MIT Recurrences - C10](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap10.pdf)  
 
@@ -185,10 +257,6 @@ Thats to say where the difference between one element in the sequence and the 
 
 Note: (summation proof @ 14m)  
 <p align="center"><img src="/tex/8182cc03706f858356e39b08f4cc0a9d.svg?invert_in_darkmode&sanitize=true" align=middle width=409.5568059pt height=44.89738935pt/></p>
-
-
-
-
 
 
 
