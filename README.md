@@ -39,14 +39,15 @@ Maths revision & learning
 	4. [References](#references)  
 6. [Another topic](#another-topic)  
 	1. [References](#references)  
-7. [How To s](#how-to-s)  
+7. [Glossary / Vocab](#glossary--vocab)  
+8. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-8. [References](#references)  
+9. [References](#references)  
 
 
 ## AIM:  
@@ -57,7 +58,7 @@ Sometimes an equation is unintelligible due to lack of vocabulary / symbol knowl
 
 A good place to start in this case is wikipedias [List of mathematical symbols by subject](https://en.wikipedia.org/wiki/List_of_mathematical_symbols_by_subject)  
 A less intimidating list of [symbols by subject inc greek symbols](https://www.rapidtables.com/math/symbols/Basic_Math_Symbols.html#calculus)  
-Good to know your [Greek symbols & Latex](https://www.nyu.edu/projects/beber/files/Chang_LaTeX_sheet.pdf)  
+Good to know your [Greek symbols & Latex cheat sheet pdf](http://wch.github.io/latexsheet/latexsheet-a4.pdf)  
 Latex [full reference](http://www.icl.utk.edu/~mgates3/docs/latex.pdf)  
 Maths on [git](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/context.md)
 
@@ -117,8 +118,11 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 #### Vid contents
 0-18m annuity equation  
 9m50 total current value of an n year annuity of annual value mUSD
-18m30 cover 50K for eternity  
-21m40 geometric series - where - getting closed for formulas  
+12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction
+<p align="center"><img src="/tex/145490d619e6a92032fe5b46b5f07fa7.svg?invert_in_darkmode&sanitize=true" align=middle width=463.88098679999996pt height=47.35857885pt/></p>
+12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.
+18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333
+21m40 geometric series - where - getting closed form formulas  
 24m  SUM ix^i  - formula 27m40  
 28m30 DERIVATIVE method  
 32m taking the derivative TWICE to solve the homework  
@@ -145,6 +149,17 @@ subtracting xS from S
 <p align="center"><img src="/tex/92ce160ae3d15e5d3514605a50da4be3.svg?invert_in_darkmode&sanitize=true" align=middle width=415.18152884999995pt height=16.438356pt/></p>
 leaving
 <p align="center"><img src="/tex/214cd0f36be857955d171a3e1fdb7c7e.svg?invert_in_darkmode&sanitize=true" align=middle width=391.90872435pt height=34.68611685pt/></p>
+So
+<p align="center"><img src="/tex/2ae9584d05cf1df660625d9aedf94d9c.svg?invert_in_darkmode&sanitize=true" align=middle width=480.35348129999994pt height=47.35857885pt/></p>
+<p align="center"><img src="/tex/41dffa9c88a19027368cfaa3ad902b44.svg?invert_in_darkmode&sanitize=true" align=middle width=410.95510335pt height=47.35857885pt/></p>
+<p align="center"><img src="/tex/1de33f092a52ed0377db1f39071677d8.svg?invert_in_darkmode&sanitize=true" align=middle width=486.01058715pt height=47.35857885pt/></p>
+<p align="center"><img src="/tex/bd6e772e7c871c9e2c3499231af4add3.svg?invert_in_darkmode&sanitize=true" align=middle width=503.9265792pt height=47.35857885pt/></p>
+<p align="center"><img src="/tex/7952effa4db579a0910fac26b01df6d7.svg?invert_in_darkmode&sanitize=true" align=middle width=477.88895714999995pt height=39.452455349999994pt/></p>
+<p align="center"><img src="/tex/d09716bc9475610ad344f1c9dbde2549.svg?invert_in_darkmode&sanitize=true" align=middle width=439.92569940000004pt height=62.3703465pt/></p>
+<p align="center"><img src="/tex/68e6dff8dc1e273b10728692dcafdd3a.svg?invert_in_darkmode&sanitize=true" align=middle width=502.87851405pt height=38.83491479999999pt/></p>
+<p align="center"><img src="/tex/05d2c613a5c5381a851c4fb1b41341e9.svg?invert_in_darkmode&sanitize=true" align=middle width=449.7250032pt height=49.3922088pt/></p>
+
+
 
 Note where  
 <p align="center"><img src="/tex/1a56b4191d315e9fa9f8c88718090957.svg?invert_in_darkmode&sanitize=true" align=middle width=457.07377814999995pt height=16.438356pt/></p>
@@ -340,6 +355,11 @@ Limits algebra - manipulations and rules.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## Glossary / Vocab
+
+Proof by Induction		Show base case, show a step, then show formula holds for step +1, and 
+Perturbation Method		Take a series pertubing it - by multiplying it for example - solve simultaneous equation
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
