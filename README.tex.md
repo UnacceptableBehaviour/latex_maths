@@ -134,10 +134,9 @@ $$
     \forall n\geq1, x\ne1, \;\;  \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
 \end{equation}
 $$
-12m-15m40 Reaching CLOSED FORM expression for annuity by substituing into CLOSED FROM series just derived
-
-18m30 cover 50K for eternity  
-21m40 geometric series - where - getting closed for formulas  
+12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.
+18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333
+21m40 geometric series - where - getting closed form formulas  
 24m  SUM ix^i  - formula 27m40  
 28m30 DERIVATIVE method  
 32m taking the derivative TWICE to solve the homework  
@@ -183,6 +182,33 @@ leaving
 \begin{equation}
    S = \frac{1 - x^n}{1-x}
 \end{equation}
+So
+\begin{equation}
+    \forall n\geq1, x\ne1, \;\;  \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x} = S
+\end{equation}
+\begin{equation}
+  V = \sum_{i=0}^{n-1} \frac{m}{{(1+p)}^i}
+\end{equation}
+\begin{equation}
+  V = m\sum_{i=0}^{n-1} \frac{1}{{(1+p)}^i}, \;subs\; \frac{1}{(1+p)}=x 
+\end{equation}
+\begin{equation}
+  V = m\sum_{i=0}^{n-1} x^i, \;or\; V = mS \; and \; S = \frac{1 - x^n}{1-x}
+\end{equation}
+\begin{equation}
+  V = m\left( \frac{1 - x^n}{1-x} \right) \;subs\;x=\frac{1}{(1+p)}
+\end{equation}
+\begin{equation}
+  V = m\left( \frac{1 - \left({\frac{1}{(1+p)}}\right)^n}{1-{\frac{1}{(1+p)}}} \right)
+\end{equation}
+\begin{equation}
+  1-{\frac{1}{(1+p)}} = \frac{(1+p)}{(1+p)}-\frac{1}{(1+p)} = \frac{p}{(1+p)}
+\end{equation}
+\begin{equation}
+  V = m\left( \frac{1 + p - \frac{1}{(1+p)^{n-1}}}{p} \right)
+\end{equation}
+
+
 
 Note where  
 \begin{equation}
