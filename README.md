@@ -158,10 +158,15 @@ So
 <p align="center"><img src="/tex/d09716bc9475610ad344f1c9dbde2549.svg?invert_in_darkmode&sanitize=true" align=middle width=439.92569940000004pt height=62.3703465pt/></p>
 <p align="center"><img src="/tex/68e6dff8dc1e273b10728692dcafdd3a.svg?invert_in_darkmode&sanitize=true" align=middle width=502.87851405pt height=38.83491479999999pt/></p>
 <p align="center"><img src="/tex/05d2c613a5c5381a851c4fb1b41341e9.svg?invert_in_darkmode&sanitize=true" align=middle width=449.7250032pt height=49.3922088pt/></p>
+m - payment every year
+p - interest rate
+n - number of years
 
 
+Note - payments for ever (to infinity) example
+<p align="center"><img src="/tex/21fc9ff01047352c464055002254cc01.svg?invert_in_darkmode&sanitize=true" align=middle width=560.3545183499999pt height=39.452455349999994pt/></p>
+So for m=USD50K, p=0.06 V=USD883,333
 
-Note where  
 <p align="center"><img src="/tex/1a56b4191d315e9fa9f8c88718090957.svg?invert_in_darkmode&sanitize=true" align=middle width=457.07377814999995pt height=16.438356pt/></p>
 <p align="center"><img src="/tex/779a64b3c277ad102cef7a5ff08d943a.svg?invert_in_darkmode&sanitize=true" align=middle width=550.1684859pt height=16.438356pt/></p>
 <p align="center"><img src="/tex/7e98dd389c723a47b5921aa7d326cd6e.svg?invert_in_darkmode&sanitize=true" align=middle width=397.5260982pt height=34.3600389pt/></p>
