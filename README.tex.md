@@ -131,7 +131,8 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction  
 \begin{equation}
     \forall n\geq1, x\ne1, \;\;  \sum_{i=0}^{n-1} x^i = \frac{1-x^n}{1-x}
-\end{equation}
+\end{equation}  
+  
 12m Reaching CLOSED FORM expression for annuity by substituting into CLOSED FROM series just derived.  
 18m30 How mush is 50K for eternity?  - Spoiler: USD50K for eternity @ p=0.06 comes in @ USD883,333  
 21m40   series - where - getting closed form formulas   
@@ -139,6 +140,7 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
 \begin{equation}
     if |x|<1,\;  \sum_{i=0}^{\infty} x^i = \frac{1}{1-x}
 \end{equation}
+  
 24m  SUM ix^i  - formula 27m40  
 28m30 DERIVATIVE method  
 32m taking the derivative TWICE to solve the homework   
