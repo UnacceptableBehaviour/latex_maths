@@ -1,20 +1,22 @@
-Maths - Brush up list
+## Maths - Brush up list
 file:/a_syllabus/_COURSES_00_WIP/MATHS_00_MIT_6.042.rtf
 REPO: 
 
-Abstract
+## Abstract  
 Maths revision & learning 
 [MIT 6.042J](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/syllabus/)  
 
 ## Contents  
-1. [AIM:](#aim)  
-2. [Logarithms - identities & basic manipulation](#logarithms---identities--basic-manipulation)  
+1. [Abstract](#abstract)  
+2. [Contents](#contents)  
+3. [AIM:](#aim)  
+4. [Logarithms - identities & basic manipulation](#logarithms---identities--basic-manipulation)  
 		1. [Identities](#identities)  
 		2. [Practice questions](#practice-questions)  
 	1. [References](#references)  
-3. [Asymptotic Notation](#asymptotic-notation)  
+5. [Asymptotic Notation](#asymptotic-notation)  
 	1. [6.042 2010 - L12 -  Sums](#6042-2010---l12----sums)  
-		1. [Vid contents](#vid-contents)  
+		1. [**Vid contents**](#vid-contents)  
 	2. [Problems](#problems)  
 	3. [6.042 2010 - L13 -  Sums & Asymptotics](#6042-2010---l13----sums--asymptotics)  
 		1. [Vid contents](#vid-contents)  
@@ -29,25 +31,25 @@ Maths revision & learning
 		2. [Notes](#notes)  
 		3. [References](#references)  
 	6. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
-4. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for---algos-l3-34m)  
+6. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for---algos-l3-34m)  
 	1. [Problems](#problems)  
 	2. [References](#references)  
-5. [Python - matplotlib, numpy](#python---matplotlib-numpy)  
+7. [Python - matplotlib, numpy](#python---matplotlib-numpy)  
 	1. [How so I plot a chart with python?](#how-so-i-plot-a-chart-with-python)  
 	2. [How do I save that chart to disk?](#how-do-i-save-that-chart-to-disk)  
 	3. [How Do I invert x axis?](#how-do-i-invert-x-axis)  
 	4. [References](#references)  
-6. [Another topic](#another-topic)  
+8. [Another topic](#another-topic)  
 	1. [References](#references)  
-7. [Glossary / Vocab](#glossary--vocab)  
-8. [How To s](#how-to-s)  
+9. [Glossary / Vocab](#glossary--vocab)  
+10. [How To s](#how-to-s)  
 	1. [Where are Latex Examples for this repo?](#where-are-latex-examples-for-this-repo)  
 	2. [How to setup autogenerate README.md file from RTF notes?](#how-to-setup-autogenerate-readmemd-file-from-rtf-notes)  
 	3. [How do I autogenerate README.md file from RTF?](#how-do-i-autogenerate-readmemd-file-from-rtf)  
 	4. [How can I add maths formulas to README.md?](#how-can-i-add-maths-formulas-to-readmemd)  
 		1. [Manually: Generate math image and embed it.](#manually-generate-math-image-and-embed-it)  
 		2. [Automagically: Install texify.](#automagically-install-texify)  
-9. [References](#references)  
+11. [References](#references)  
 
 
 ## AIM:  
@@ -125,7 +127,9 @@ Reading: [C9 Sums & Asymptotics](https://ocw.mit.edu/courses/electrical-engineer
 
 List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)    
 
-#### Vid contents
+
+
+#### **Vid contents**
 0-18m annuity equation  
 9m50 total current value of an n year annuity of annual value mUSD  
 12m Following reads for all n greater than equal to 1 where x not eq 1 sum . . . CLOSED FORM proved by induction  
@@ -141,19 +145,27 @@ List of [Summation identities!](https://en.wikipedia.org/wiki/Summation)
     if |x|<1,\;  \sum_{i=0}^{\infty} x^i = \frac{1}{1-x}
 \end{equation}
   
-24m  SUM ix^i  - formula 27m40  
-28m30 DERIVATIVE method  
+GEOMETRIC SERIES  
+24m  PERTURBATION method - SUM ix^i  - formula 27m40 - flesh out notes - add hash for contents  
+28m30 DERIVATIVE method - flesh out notes - add hash for contents  
 32m taking the derivative TWICE to solve the homework   
 34m evaluating a company based on anual growth - similar to annuity maths  <<< USEFUL!!!   
-40m SUM i2^-i  
+40m SUM i2^-i - write up example - show it  
 42m proof by induction of  
 \begin{equation}
   \sum_{i=1}^{n}i^2 = \frac{n(n+1)(2n+1)}{6}
 \end{equation}
 42m proof by induction of  
+45m tips on guessing solutions and solving simultaneous equation to get CLOSED FOR solution
+46m-55m50 - Getting close bounds on a summation series - Integration bounds - Note formula - on test
+55m50 - Example of above
+1h1m - Definition of tild ~ EG g(x) ~ h(x)
+\begin{equation}
+  g(x)\sim h(x)\;means\;\lim_{x\rightarrow\infty}\;\frac{g(x)}{h(x)}=1
+\end{equation}
 
 
-NEXT - add rest of timing continue notes from 20m
+NEXT - add rest of timing continue notes from 40m - add maths for red high lights for easy revision
 
 **Notes on lecture**  
 Annuity - pays a fixed amount of value every years **(m)** for a number of years **(n)**  
@@ -236,15 +248,15 @@ So for m=USD50K, p=0.06 V=USD883,333
 \end{equation}
 
 24m
-\begin{equation}
+\begin{equation*}
   \mbox{if } |x| < 1 \mbox{, } \sum_{i=1}^{\infty}ix^i = \frac{x}{{(1-x)}^2}
-\end{equation}
+\end{equation*}
 
 
 42m
-\begin{equation}
+\begin{equation*}
   \sum_{i=1}^{n}i^2 = \frac{n(n+1)(2n+1)}{6}
-\end{equation}
+\end{equation*}
 Proof by induction guess is comes out cubic
 \begin{equation}
   \forall n \mbox{, } \sum_{i=1}^{n}i^2 = an^3 + bn^2 + cn + d 
@@ -257,6 +269,11 @@ Proof by induction guess is comes out cubic
   n=3 \mbox{, } \Rightarrow 14 = 27a + 9b + 3c + d \\
   \end{matrix}
 \end{multline}
+Solve simultaneous equations and and then prove corectness by induction (plugging values in to make sure its correct)
+
+46m-55m50 - Note formula - on test
+
+
 
 
 ### Problems
@@ -306,6 +323,9 @@ Reading:
 
 #### Vid contents
 TODO
+Understand - Power, Factorial, Fibonacci Recurrence Solutions
+
+
 
 #### Notes
 
@@ -315,6 +335,8 @@ TODO
 
 Solving Divide and Conquer Recurrences 22m - Ref to Text book  
 
+
+Power, Factorial, Fibonacci Recurrence Solutions
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -338,6 +360,7 @@ Recurrence is basically a computable sequence set out from a set of start rules 
   
 EG Fibonacci: first two numbers are 0 and 1 the rest are defined as the the sum of the two preceding numbers  
 0	1	1	2	3	5	8	13	.	. 	you get it  
+
 
 formally defined:
 $$
