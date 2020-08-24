@@ -158,11 +158,12 @@ GEOMETRIC SERIES
 42m proof by induction of  
 45m tips on guessing solutions and solving simultaneous equation to get CLOSED FOR solution
 46m-55m50 - Getting close bounds on a summation series - Integration bounds - Note formula - on test
-55m50 - Example of above
+55m50 - Example of above when f() increasing
 1h1m - Definition of tild ~ EG g(x) ~ h(x)
 \begin{equation}
   g(x)\sim h(x)\;means\;\lim_{x\rightarrow\infty}\;\frac{g(x)}{h(x)}=1
 \end{equation}
+1h7m - Example of above when f() decreasing
 
 
 NEXT - add rest of timing continue notes from 40m - add maths for red high lights for easy revision
