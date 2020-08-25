@@ -17,20 +17,23 @@ Maths revision & learning
 5. [Asymptotic Notation](#asymptotic-notation)  
 	1. [6.042 2010 - L12 -  Sums](#6042-2010---l12----sums)  
 		1. [**Vid contents**](#vid-contents)  
-	2. [Problems](#problems)  
+	2. [6.042 2010 - R12 -  Sums & Asymptotics](#6042-2010---r12----sums--asymptotics)  
+		1. [1 The L-tower problem](#1-the-l-tower-problem)  
+		2. [2 Double Sums](#2-double-sums)  
 	3. [6.042 2010 - L13 -  Sums & Asymptotics](#6042-2010---l13----sums--asymptotics)  
 		1. [Vid contents](#vid-contents)  
 		2. [Notes](#notes)  
-		3. [References](#references)  
-	4. [6.042 2010 - L14 -  Divide and Conquer Recurrences](#6042-2010---l14----divide-and-conquer-recurrences)  
+	4. [Problems](#problems)  
+		1. [References](#references)  
+	5. [6.042 2010 - L14 -  Divide and Conquer Recurrences](#6042-2010---l14----divide-and-conquer-recurrences)  
 		1. [Vid contents](#vid-contents)  
 		2. [Notes](#notes)  
 		3. [References](#references)  
-	5. [6.042 2010 - L15 - Linear recurrence](#6042-2010---l15---linear-recurrence)  
+	6. [6.042 2010 - L15 - Linear recurrence](#6042-2010---l15---linear-recurrence)  
 		1. [Vid contents](#vid-contents)  
 		2. [Notes](#notes)  
 		3. [References](#references)  
-	6. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
+	7. [6.04J Intro Algorithms L2: Asymptotic Notation | Recurrences | Substitution, Master Method ()](#604j-intro-algorithms-l2-asymptotic-notation--recurrences--substitution-master-method-)  
 6. [Recurrence resolution for - Algos L3 34m](#recurrence-resolution-for---algos-l3-34m)  
 	1. [Problems](#problems)  
 	2. [References](#references)  
@@ -141,11 +144,12 @@ GEOMETRIC SERIES
 <p align="center"><img src="/tex/c70c4bf439e6afaca97c35c4c1880d56.svg?invert_in_darkmode&sanitize=true" align=middle width=442.8349695pt height=44.89738935pt/></p>
 42m proof by induction of  
 45m tips on guessing solutions and solving simultaneous equation to get CLOSED FOR solution
-46m-55m50 - Getting close bounds on a summation series - Integration bounds - Note formula - on test
-55m50 - Example of above when f() increasing
+46m-55m50 - Getting close bounds on a summation series - Integration bounds
+55m50 - Example of above when f() increasing - Note formula - on test
 1h1m - Definition of tild ~ EG g(x) ~ h(x)
 <p align="center"><img src="/tex/85ba7145654529e373f4161b9f4d3b10.svg?invert_in_darkmode&sanitize=true" align=middle width=475.6890831pt height=38.83491479999999pt/></p>
 1h7m - Example of above when f() decreasing
+1h12m - Symetric upper/lower bound definition - Note formula - on test
 
 
 NEXT - add rest of timing continue notes from 40m - add maths for red high lights for easy revision
@@ -202,6 +206,40 @@ Solve simultaneous equations and and then prove corectness by induction (pluggin
 
 46m-55m50 - Note formula - on test
 
+### 6.042 2010 - R12 -  Sums & Asymptotics 
+[Problems for recitation 12](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec12_sol.pdf) ~
+[Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec12_sol.pdf)  
+#### 1 The L-tower problem
+#### 2 Double Sums
+
+### 6.042 2010 - L13 -  Sums & Asymptotics 
+[vid](https://www.youtube.com/watch?v=X9eErxRjQEI) ~ 
+[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap09.pdf) ~ 
+[Problems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13.pdf) ~ 
+[Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13_sol.pdf) ~ 
+Reading:
+
+#### Vid contents
+0m-12m - Greedy Balancing (L-tower problem?) class demo 
+12m-18m Greedy algorithm analysis - problem statement - 
+14m - Defining variables 
+18m - recursive computation for centre of gravity
+
+
+
+
+#### Notes
+**Greedy algorithm analysis**
+Basics: push the top block out as far as possible, then the one underneath, then the next etc  
+
+![Stacked block diagram](https://github.com/UnacceptableBehaviour/latex_maths/blob/master/images/_maths_6.042J_L13_17m.png)  
+
+Furthest out block is block out over the edge is block 1, the far edge of which is at r1.  
+Each block is length 1.  
+Subset of blocks k.  
+Block resting on table is nth block, the table itself n+1.  
+
+
 
 
 
@@ -212,21 +250,9 @@ Solve simultaneous equations and and then prove corectness by induction (pluggin
 6.042 L13 Asymptotic Notation Above Problems w/ Solutions
 
 
-
-
-### 6.042 2010 - L13 -  Sums & Asymptotics 
-[vid](https://www.youtube.com/watch?v=X9eErxRjQEI) ~ 
-[lect notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/readings/MIT6_042JF10_chap09.pdf) ~ 
-[Problems](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13.pdf) ~ 
-[Solutions](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/recitations/MIT6_042JF10_rec13_sol.pdf) ~ 
-Reading:
-
-#### Vid contents
-TODO
-
-#### Notes
-
 #### References
+
+
 
 ### 6.042 2010 - L14 -  Divide and Conquer Recurrences
 [vid](https://www.youtube.com/watch?v=Kqf0uO0oV6s) ~ 
