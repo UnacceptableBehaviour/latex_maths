@@ -292,11 +292,16 @@ Solve simultaneous equations and and then prove corectness by induction (pluggin
 Reading:
 
 #### Vid contents
-0m-12m - Greedy Balancing (L-tower problem?) class demo 
-12m-18m Greedy algorithm analysis - problem statement - 
-14m - Defining variables 
-18m - recursive computation for centre of gravity
-
+**0m-12m** - Greedy Balancing (L-tower problem?) class demo  
+**12m-18m** Greedy algorithm analysis - problem statement   
+**14m** - Defining variables  
+**18m-21m** - recursive computation for centre of gravity  
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
 
 
 
@@ -311,6 +316,36 @@ Each block is length 1.
 Subset of blocks k.  
 Block resting on table is nth block, the table itself n+1.  
 
+**Stability constraint:** The centre of mass of block k, Ck, must lie on the block below (k+1) - the table being n+1
+For the greedy algorithm centre of mass Ck is\\
+right at the edge of the block below,
+\begin{align*}
+  C_k = r_{k+1}
+\end{align*}
+Centre of mass kth block is at
+\begin{align*}
+  r_k-\frac{1}{2} \;\textit{since block size is 1, this is half way along the block}
+\end{align*}
+Centre of mass of the top k blocks is
+\begin{align*}
+  C_k = \frac{(k-1)C_{k-1} +  1.(r_k-\frac{1}{2})}{(k-1)+1}\\
+      = \frac{(k-1)C_{k-1} +  r_k-\frac{1}{2}}{k}\\
+\end{align*}
+in english
+\begin{equation}
+  \frac{(mass\;of\;k-1\;blocks).(centre\;of\;\;mass\;of\;C_{k-1}) + (mass\;of\;kth\;block).(entre\;of\;\;mass\;of\;kth\;block}{ divided\;by\;(k-1,mass\;k-1\;blocks)+1,mass\;k-1\;blocks}
+\end{equation}
+Substituting
+\begin{align*}
+  C_k = r_{k+1}\\
+  r_{k+1} = \frac{(k-1)C_{k-1} +  r_k-\frac{1}{2}}{k}\\
+  C_{k-1} = r_k\;from\;diagram\\
+  r_{k+1} = \frac{(k-1)r_k +  r_k-\frac{1}{2}}{k}\\
+          = \frac{kr_k-\frac{1}{2}}{k}\\
+          =  r_k-\frac{1}{2k}\\
+=>\\
+  r_k - r_{k+1} = \frac{1}{2k}\\
+\end{align*}
 
 
 
