@@ -142,9 +142,10 @@ GEOMETRIC SERIES
 42m proof by induction of  
 45m tips on guessing solutions and solving simultaneous equation to get CLOSED FOR solution
 46m-55m50 - Getting close bounds on a summation series - Integration bounds - Note formula - on test
-55m50 - Example of above
+55m50 - Example of above when f() increasing
 1h1m - Definition of tild ~ EG g(x) ~ h(x)
 <p align="center"><img src="/tex/85ba7145654529e373f4161b9f4d3b10.svg?invert_in_darkmode&sanitize=true" align=middle width=475.6890831pt height=38.83491479999999pt/></p>
+1h7m - Example of above when f() decreasing
 
 
 NEXT - add rest of timing continue notes from 40m - add maths for red high lights for easy revision
