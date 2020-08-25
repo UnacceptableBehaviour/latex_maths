@@ -220,11 +220,16 @@ Solve simultaneous equations and and then prove corectness by induction (pluggin
 Reading:
 
 #### Vid contents
-0m-12m - Greedy Balancing (L-tower problem?) class demo 
-12m-18m Greedy algorithm analysis - problem statement - 
-14m - Defining variables 
-18m - recursive computation for centre of gravity
-
+**0m-12m** - Greedy Balancing (L-tower problem?) class demo  
+**12m-18m** Greedy algorithm analysis - problem statement   
+**14m** - Defining variables  
+**18m-21m** - recursive computation for centre of gravity  
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
+**m-m** -   
 
 
 
@@ -239,6 +244,18 @@ Each block is length 1.
 Subset of blocks k.  
 Block resting on table is nth block, the table itself n+1.  
 
+**Stability constraint:** The centre of mass of block k, Ck, must lie on the block below (k+1) - the table being n+1
+For the greedy algorithm centre of mass Ck is\\
+right at the edge of the block below,
+<p align="center"><img src="/tex/ae8fa4f34f706e0a023a313c8f0cdd39.svg?invert_in_darkmode&sanitize=true" align=middle width=73.08069449999999pt height=15.068469899999998pt/></p>
+Centre of mass kth block is at
+<p align="center"><img src="/tex/ac52897e5def3d8214ad59c03455f157.svg?invert_in_darkmode&sanitize=true" align=middle width=424.19348564999996pt height=32.990165999999995pt/></p>
+Centre of mass of the top k blocks is
+<p align="center"><img src="/tex/f240f2408b004b3efff542027fb2d01e.svg?invert_in_darkmode&sanitize=true" align=middle width=222.3168024pt height=85.17131205pt/></p>
+in english
+<p align="center"><img src="/tex/6b56a3ed2cfa275fad204b6957048bfa.svg?invert_in_darkmode&sanitize=true" align=middle width=737.5649885999999pt height=56.91713114999999pt/></p>
+Substituting
+<p align="center"><img src="/tex/dd89dfe663a6eda5a9992aa42a8053ef.svg?invert_in_darkmode&sanitize=true" align=middle width=211.0299774pt height=280.3401348pt/></p>
 
 
 
